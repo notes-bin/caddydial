@@ -1,0 +1,49 @@
+# Binaries
+/bin/
+/dist/
+/caddyctl
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go
+/vendor/
+coverage.out
+coverage.html
+*.coverprofile
+
+# SQLite / local state（库文件不以 .db 结尾）
+*.store
+*.store-wal
+*.store-shm
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Debug / profiling
+cpu.prof
+mem.prof
+*.log
+
+# Local compose overrides
+docker-compose.override.yml
