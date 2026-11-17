@@ -47,3 +47,6 @@ mem.prof
 
 # Local compose overrides
 docker-compose.override.yml
+
+# AI 会话用设计/计划文档（不入库）
+docs/superpowers/
